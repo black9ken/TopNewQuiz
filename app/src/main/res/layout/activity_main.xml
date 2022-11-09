@@ -23,15 +23,20 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:hint="Votre prénom ici..."
-        />
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/main_button_play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
         android:padding="16dp"
         android:layout_gravity="center_horizontal"
+        android:background="@drawable/img_go"
         android:text="C'est parti !"
+
+
         />
+
+
 
 </LinearLayout>
